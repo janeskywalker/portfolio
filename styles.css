@@ -3,17 +3,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Quicksand', cursive;
 }
 
 .nav-bar {
     background-color:rgb(247, 199, 209);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 1em 0.8em;
 }
 
-img {
+.avatar {
     height: 7em;
-    border-radius: 45%;
+    border-radius: 50%;
 }
 
 .nav-list {
@@ -31,10 +33,20 @@ img {
 }
 
 .nav-list-item a {
+    font-size: 1.2em;
+}
+
+
+.nav-list-item a,
+.contact-list-item a {
     text-decoration: none;
     color:rgb(142, 70, 104);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.2em;
+}
+
+.nav-list-item a:hover,
+.contact-list-item a:hover,
+.nav-list-item.active a {
+    color:rgb(34, 129, 167);
 }
 
 .header {
@@ -42,6 +54,11 @@ img {
 
     background-size: cover;
     height: 400px;
+}
+
+.content-section {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 
@@ -65,7 +82,6 @@ img {
     text-align: center;
     color:rgb(142, 70, 104);
     padding: 3em 0 0 0;
-    font-family: 'Quicksand', cursive;
     display: block;
 }
 
@@ -73,13 +89,59 @@ img {
 .self-intro {
     text-align: center;
     color:rgb(142, 70, 104);
-    padding: 1em 11em;
-    font-family: 'Quicksand', cursive;
+    padding: 1em 0;
     line-height: 2;
+}
 
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list-item {
+    display: block;
+    padding: 0 .5em 0 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 0 0 .5em 0;
+}
+
+.contact-list-item a:hover .contact-icon {
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(160deg);
+}
+
+.contact-icon {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    height: 20px;
+    filter: invert(.3) sepia(1) saturate(5) hue-rotate(290deg);
+}
+
+.page-footer {
+    padding: 1em;
 }
 
 
 
+.project-section {
+    margin: 6em;
+}
+
+
+.project-img {
+    /* width:90%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.project-link {
+    text-align: center;
+    display: block;
+    color:rgb(142, 70, 104);
+    padding: 1em 0;
+    line-height: 2;
+}
 
 
