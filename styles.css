@@ -1,0 +1,85 @@
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color:rgb(247, 199, 209);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    height: 7em;
+    border-radius: 45%;
+}
+
+.nav-list {
+    list-style: none;
+    display: block;
+    padding: 2.5em;
+    display: inline-block;
+}
+
+
+.nav-list-item {
+    display: block;
+    float: right;
+    padding: 0 0 0 2em;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color:rgb(142, 70, 104);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+}
+
+.header {
+    background-image: url("./assets/geordanna-cordero-fields-2Qg4y32pdCc-unsplash.jpg");
+
+    background-size: cover;
+    height: 400px;
+}
+
+
+.greeting-message {
+    font-size: 4em;
+    text-align: center;
+    color:rgb(142, 70, 104);
+    padding: 3em 0 0 0;
+    font-family: 'Chilanka', cursive;
+}
+
+.greeting-description {
+    font-size: 1em;
+    text-align: center;
+    color:rgb(142, 70, 104);
+    /* padding: 3em 0 0 0; */
+    font-family: 'Chilanka', cursive;
+}
+
+.greeting {
+    text-align: center;
+    color:rgb(142, 70, 104);
+    padding: 3em 0 0 0;
+    font-family: 'Quicksand', cursive;
+    display: block;
+}
+
+
+.self-intro {
+    text-align: center;
+    color:rgb(142, 70, 104);
+    padding: 1em 11em;
+    font-family: 'Quicksand', cursive;
+    line-height: 2;
+
+}
+
+
+
+
+
