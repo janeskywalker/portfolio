@@ -6,6 +6,7 @@
     font-family: 'Quicksand', cursive;
 }
 
+/* navbar */
 .nav-bar {
     background-color:rgb(247, 199, 209);
     display: grid;
@@ -48,6 +49,10 @@
 .nav-list-item.active a {
     color:rgb(34, 129, 167);
 }
+
+/* end of navbar */
+
+
 
 .header {
     background-image: url("./assets/geordanna-cordero-fields-2Qg4y32pdCc-unsplash.jpg");
