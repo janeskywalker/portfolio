@@ -86,7 +86,7 @@
 .greeting {
     text-align: center;
     color:rgb(142, 70, 104);
-    padding: 3em 0 0 0;
+    /* padding: 3em 0 0 0; */
     display: block;
 }
 
@@ -145,7 +145,6 @@
     text-align: center;
     display: block;
     color:rgb(142, 70, 104);
-    padding: 1em 0;
     line-height: 2;
 }
 
