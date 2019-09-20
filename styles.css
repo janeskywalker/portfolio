@@ -145,8 +145,14 @@
     text-align: center;
     display: block;
     color:rgb(142, 70, 104);
-    padding: 1em 0;
     line-height: 2;
+}
+
+
+.project-name {
+    text-align: center;
+    color:rgb(142, 70, 104);
+    display: block;
 }
 
 
