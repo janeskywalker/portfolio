@@ -152,6 +152,7 @@
 .project-name {
     text-align: center;
     color:rgb(142, 70, 104);
+    padding: 3em 0 0 0;
     display: block;
 }
 
