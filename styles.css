@@ -93,7 +93,7 @@
 
 .self-intro {
     text-align: center;
-    color:rgb(142, 70, 104);
+    color:rgb(99, 8, 52);
     padding: 1em 0;
     line-height: 2;
 }
@@ -147,7 +147,7 @@
 .project-link {
     text-align: center;
     display: block;
-    color:rgb(142, 70, 104);
+    color:rgb(99, 8, 52);
     line-height: 2;
     text-decoration: none;
 }
@@ -160,7 +160,7 @@
 
 .project-name {
     text-align: center;
-    color:rgb(142, 70, 104);
+    color:rgb(99, 8, 52);
     padding: 0.5em 0 0 0;
     display: block;
     padding: 0 0 0.5em 0;
