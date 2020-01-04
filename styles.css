@@ -161,9 +161,15 @@
     padding: 4em;
 }
 
+.project-wrapper {
+    margin: 0 auto;
+    padding: 2em;
+    width: 700px;
+}
+
 .project-img {
     display: block;
-    width: 50%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -173,9 +179,8 @@
 .project-name {
     text-align: center;
     color: whitesmoke;
-    padding: 0.5em 0 0 0;
     display: block;
-    padding: 0 0 0.5em 0;
+    padding:0.5em;
 }
 
 .project-link {
