@@ -157,15 +157,8 @@
 }
 
 .project-section {
-    /* margin-top: 10em; */
-    /* margin-left: 6em;
-    margin-right: 6em; */
     margin-bottom: 6em;
     padding: 4em;
-}
-
-.project-description {
-    color: whitesmoke;
 }
 
 .project-img {
@@ -177,20 +170,6 @@
     margin-bottom: 1em;
 }
 
-.project-link {
-    text-align: center;
-    display: block;
-    color:whitesmoke;
-    line-height: 2;
-    text-decoration: none;
-}
-
-.project-link:hover {
-    text-decoration: underline;
-}
-
-
-
 .project-name {
     text-align: center;
     color: whitesmoke;
@@ -199,6 +178,24 @@
     padding: 0 0 0.5em 0;
 }
 
+.project-link {
+    text-align: center;
+    display: block;
+    color:whitesmoke;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-description {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 4em;
+}
 
 /* footer */
 
