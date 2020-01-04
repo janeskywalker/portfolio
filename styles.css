@@ -8,21 +8,30 @@
 
 /* navbar */
 .nav-bar {
-    background-color:rgb(247, 199, 209);
+    /* background-color:rgb(247, 199, 209); */
+    background: rgb(242,209,200);
+    background: linear-gradient(90deg, rgba(242,209,200,1) 25%, rgba(250,201,228,1) 82%);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 1em 0.8em;
+    padding: 0.1em 5em;
 }
 
-.avatar {
+.avatar-1 {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.avatar-2 {
     height: 7em;
     border-radius: 50%;
+    display: block;
+    margin: 2em auto 1em auto;
 }
 
 .nav-list {
     list-style: none;
     display: block;
-    padding: 2.5em;
+    padding: 1.5em;
     display: inline-block;
 }
 
@@ -34,7 +43,7 @@
 }
 
 .nav-list-item a {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
@@ -43,6 +52,7 @@
     text-decoration: none;
     color:rgb(142, 70, 104);
 }
+
 
 .nav-list-item a:hover,
 .contact-list-item a:hover,
@@ -58,7 +68,7 @@
     background-image: url("./assets/geordanna-cordero-fields-2Qg4y32pdCc-unsplash.jpg");
 
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 .content-section {
@@ -83,10 +93,17 @@
     font-family: 'Chilanka', cursive;
 }
 
+.greeting-hi {
+    text-align: center;
+    color:rgb(142, 70, 104);
+    padding: 0.5em 0 0 0;
+    display: block;
+}
+
 .greeting {
     text-align: center;
     color:rgb(142, 70, 104);
-    padding: 3em 0 0 0;
+    padding: 4em 0 0 0;
     display: block;
 }
 
@@ -100,14 +117,20 @@
 
 .contact-list {
     list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contact-list-item {
     display: block;
     padding: 0 .5em 0 20px;
-    line-height: 20px;
+    line-height: 29px;
     overflow: hidden;
-    margin: 0 0 .5em 0;
+    margin: 1em;
+}
+
+.contact-list-right {
+    padding: 0 .5em 0 7em;
 }
 
 .contact-list-item a:hover .contact-icon {
@@ -118,13 +141,14 @@
     display: block;
     float: left;
     margin: 0 10px 0 0;
-    height: 20px;
+    height: 30px;
     filter: invert(.3) sepia(1) saturate(5) hue-rotate(290deg);
 }
 
-.page-footer {
-    padding: 1em;
+.contact-link {
+    padding: 0.5em;
 }
+
 
 
 
@@ -164,4 +188,17 @@
     padding: 0.5em 0 0 0;
     display: block;
     padding: 0 0 0.5em 0;
+}
+
+
+/* footer */
+
+.page-footer {
+    padding: 1em;
+    background: rgb(242,209,200);
+    background: linear-gradient(90deg, rgba(242,209,200,1) 25%, rgba(250,201,228,1) 82%);
+}
+
+.copy-right-display {
+    text-align: center
 }
