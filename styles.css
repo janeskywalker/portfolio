@@ -156,8 +156,27 @@
     background:rgb(78, 77, 102);
 }
 
+.bonaPetite {
+    background: rgb(219, 166, 135)
+}
+
+.wayfarer {
+    background: rgb(127, 199, 155)
+}
+
+.bar-app{
+    background: rgb(185, 168, 197)
+}
+
+.on-selector{
+    background: rgb(235, 94, 94)
+}
+
+.data-binding{
+    background:rgb(100, 159, 201)
+}
+
 .project-section {
-    margin-bottom: 6em;
     padding: 4em;
 }
 
@@ -200,6 +219,11 @@
     text-align: center;
     margin: 0 auto;
     padding: 1em 4em;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1.1em;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+
 }
 
 /* footer */
