@@ -157,15 +157,15 @@
 }
 
 .bonaPetite {
-    background: rgb(219, 166, 135)
+    background: rgb(219, 151, 111)
 }
 
 .wayfarer {
-    background: rgb(127, 199, 155)
+    background: rgb(112, 196, 144)
 }
 
 .bar-app{
-    background: rgb(185, 168, 197)
+    background: rgb(182, 160, 197)
 }
 
 .on-selector{
@@ -173,11 +173,11 @@
 }
 
 .data-binding{
-    background:rgb(100, 159, 201)
+    background:rgb(89, 151, 196)
 }
 
 .project-section {
-    padding: 4em;
+    padding: 2em 4em;
 }
 
 .project-wrapper {
@@ -202,6 +202,27 @@
     padding:0.5em;
 }
 
+
+
+.project-description {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 4em;
+    font-family: adobe-garamond-pro, serif;
+    font-size: 1.1em;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+}
+
+.link-holder {
+    margin: 2em auto;
+    background:rgb(44, 43, 56);
+    width: 70%;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
 .project-link {
     text-align: center;
     display: block;
@@ -210,21 +231,10 @@
     margin: 0.5em;
 }
 
-.project-link:hover {
+/* .project-link:hover {
     text-decoration: underline;
-}
+} */
 
-.project-description {
-    color: whitesmoke;
-    text-align: center;
-    margin: 0 auto;
-    padding: 1em 4em;
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 1.1em;
-    letter-spacing: 0.03em;
-    line-height: 1.5em;
-
-}
 
 /* footer */
 
