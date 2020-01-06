@@ -167,19 +167,19 @@
 
 
 .bonaPetite {
-    background: rgb(219, 151, 111)
+    background: #e7b578
 }
 
 .bonaPetite-link-hldr {
-    background: rgb(153, 93, 59)
+    background: #dfa865
 }
 
 .wayfarer {
-    background: rgb(112, 196, 144)
+    background: #679895
 }
 
 .wayfarer-link-hldr {
-    background: rgb(73, 128, 94)
+    background: #6e8886
 }
 
 .bar-app{
@@ -187,7 +187,7 @@
 }
 
 .barapp-link-hldr {
-    background: rgb(104, 77, 122)
+    background: rgb(149, 115, 170)
 }
 
 .on-selector{
@@ -195,7 +195,7 @@
 }
 
 .onselector-link-hldr {
-    background: rgb(143, 46, 46)
+    background: rgb(194, 61, 61)
 }
 
 .data-binding{
@@ -203,7 +203,7 @@
 }
 
 .databinding-link-hldr {
-    background:rgb(50, 85, 110)
+    background:rgb(122, 167, 199)
 }
 
 .project-section {
@@ -247,7 +247,7 @@
 
 .link-holder {
     margin: 2em auto 0 auto;
-    width: 75%;
+    width: 50%;
     height: 2.5em;
     line-height: 2.5em;
 }
