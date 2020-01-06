@@ -6,53 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Chilanka|Quicksand&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Chilanka|Gloria+Hallelujah|Nanum+Gothic|Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="nav-bar">
         <img class="avatar-1" src="./assets/avatar.jpg" alt="avatar">
         <ul class="nav-list">
-            <li class="nav-list-item"><a href="./projects.html">Projects</a></li>
-            <li class="nav-list-item active"><a href="./index.html">About</a></li>
+            <li class="nav-list-item active"><a href="./index.html">Projects</a></li>
+            <li class="nav-list-item"><a href="./about.html">About</a></li>
+            
         </ul>    
     </nav>
 
     <header class="header">
-        <h1 class="greeting-message">I'm Jane.</h1>
-        <p class="greeting-description">an attorney-turned <br> full stack developer.</p>
+        <h1 class="greeting-message">Projects</h1>
+        <p class="greeting-description">Here is a selection of some recent work.</p>
     </header>
 
-    <section class="content-section">
-        <img class="avatar-2" src="./assets/avatar.jpg" alt="avatar">
-        <h2 class="greeting-hi">Hi.</h2>
-        <p class="self-intro"> I am a JavaScript and React enthusiast based in San Francisco Bay Area, who enjoys learning, creating and building web applications that impact peoples lives on the web. Previously an attorney, I helped startups and large companies succeed in their fields of business. Now a freelance full stack developer, I take pleasure in building elegant, intuitive, responsive and cross browser responsive websites for my clients.</p>
-<!--             
-        <p class="self-intro">After graduating from a national top fifteen law school and succeeding in the field of practicing law, I wanted to push myself to the next level and strive in the Tech industry. That was how my professional journey as a full stack developer started, and it gets better every single day ... ... </p> -->
+    <!-- justdance -->
+    <section class="project-section just-dance">
+        <div class="project-wrapper">
+            <img class="project-img" src="./assets/justdance2.png" alt="bonaPetite">
+            <h2 class="project-name">justDance</h2>
+            <p class="project-description"> This app is a social platform for dancers to add, edit and delete chat/review for dancing studios. Dancers use it to check who go to dancing studios on a specific day or for a class.</p>
+            <p class="project-description">This app features real-time messaging. Tech Stack: React, Redux, Node, Express, and MongoDB.</p>
+            <div class="link-holder just-dance-link-hldr">
+                    <a class="project-link" href="https://just-dance.herokuapp.com">VISIT SITE</a>
+                    <!-- <a class="project-link" href="https://github.com/janeskywalker/justdance-front-end">GitHub</a> -->
+            </div>
+        </div>
     </section>
 
-
-    <section class="content-section">
-        <h2 class="greeting">Skills.</h2>
-        <p class="self-intro"><strong>Languages:</strong> JavaScript, HTML, CSS, Python</br>
-            <strong>Frameworks and Libraries:</strong> React, Redux, Node.js, Express, Bootstrap, Django</br>
-            <strong>Database:</strong> MongoDB, MySQL</br>
-            <strong>Management and Deployment:</strong> GitHub, Heroku, Bash</br>
-            <strong>Methodologies:</strong> OOP, MVC, one-way data flow, wireframing</br>
-            <strong>Tools and Version Control</strong>: NPM, git, Webpack</p>
+    <!-- bonaPetite -->
+    <section class="project-section bonaPetite">
+        <div class="project-wrapper">
+            <img class="project-img" src="./assets/bonapetite.png" alt="bonaPetite">
+            <h2 class="project-name">bonaPetite</h2>
+            <p class="project-description"> This application allows users to create profile, meal plans, track nutrition and calories intake.</p>
+            <p class="project-description"> Tech Stack: Javascript, Node, Express, and MongoDB. </p>
+            <div class="link-holder bonaPetite-link-hldr">
+                    <a class="project-link" href="https://bonapetitenutritiontrack.herokuapp.com">VISIT SITE</a>
+            <!-- <a class="project-link" href="https://git.generalassemb.ly/janezeng/bonaPetite">GitHub</a> -->
+            </div>
+        </div>
     </section>
 
-    <section class="content-section">
-        <h2 class="greeting">Get in touch.</h2>
-        <ul class="contact-list">
-            <li class="contact-list-item"><a class="contact-link" href="https://github.com/janeskywalker"><img class="contact-icon" src="assets/github-icon.svg" />github</a></li>
-            <li class="contact-list-item contact-list-right"><a class="contact-link" href="https://www.linkedin.com/in/jane-zeng/"><img class="contact-icon" src="assets/linkedin-icon.svg" />linkedin</a></li>
-            <li class="contact-list-item"><a class="contact-link" href="mailto: janehuizeng@gmail.com"><img class="contact-icon" src="assets/email-icon.svg" />janehuizeng@gmail.com</a></li>
-        </ul>
+    <!-- wayfarer -->
+    <section class="project-section wayfarer">
+        <div class="project-wrapper">
+            <img class="project-img" src="./assets/wayfarer.png" alt="bonaPetite">
+            <h2 class="project-name">wayfarer</h2>
+            <p class="project-description"> This travel applicaiton is designed for users to create profile, posts, and share travel stories.</p>
+            <p class="project-description"> Tech Stack: React, Node, Express, and MongoDB. </p>
+            <div class="link-holder wayfarer-link-hldr">
+                    <a class="project-link" href="https://wayfarer-react-app.herokuapp.com">VISIT SITE</a>
+            <!-- <a class="project-link" href="https://github.com/ale-xander/Wayfarer">GitHub</a> -->
+            </div>
+        </div>
     </section>
+
+    <!-- bar-app -->
+    <section class="project-section bar-app">
+        <div class="project-wrapper">
+            <img class="project-img" src="./assets/barapp.png" alt="bonaPetite">
+            <h2 class="project-name">BarApp</h2>
+            <p class="project-description"> This is a point of sale applicaton for bar tenders to manage order, drink and tabs.</p>
+            <p class="project-description"> Tech Stack: Python, Django, SQL and PostgreSQL. </p>
+            <div class="link-holder barapp-link-hldr">
+                    <a class="project-link" href="https://b-a-rapp.herokuapp.com">VISIT SITE</a>
+                    <!-- <a class="project-link" href="https://github.com/janeskywalker/barapp">GitHub</a> -->
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- onSelector -->
+    <section class="project-section on-selector">
+        <div class="project-wrapper">
+            <img class="project-img" src="./assets/onSelector.png" alt="onSelector">
+            <h2 class="project-name">onSelector library</h2>
+            <p class="project-description"> onSelector is a recursive function to add event listener to a matched element. (over 200 downloads on NPM)</p>
+            <div class="link-holder onselector-link-hldr">
+                    <a class="project-link" href="https://www.npmjs.com/package/onselector">VISIT SITE</a>
+            <!-- <a class="project-link" href="https://github.com/janeskywalker/onSelector">GitHub</a> -->
+            </div>
+        </div>
+      
+    </section>
+
+    <!-- data-binding -->
+    <section class="project-section data-binding">
+        <div class="project-wrapper">
+            <img class="project-img" src="./assets/data-binding.png" alt="data-binding">
+            <h2 class="project-name">data-binding library</h2>
+            <p class="project-description"> A data-binding library (over 300 downloads on NPM).</p>
+            <div class="link-holder databinding-link-hldr">
+                    <a class="project-link" href="https://www.npmjs.com/package/bind-store">VISIT SITE</a>
+                    <!-- <a class="project-link" href="https://github.com/janeskywalker/data-binding">GitHub</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="content-section">
+            <h2 class="greeting">Contact.</h2>
+            <ul class="contact-list">
+                <li class="contact-list-item"><a class="contact-link" href="https://github.com/janeskywalker"><img class="contact-icon" src="assets/github-icon.svg" />github</a></li>
+                <li class="contact-list-item contact-list-right"><a class="contact-link" href="https://www.linkedin.com/in/jane-zeng/"><img class="contact-icon" src="assets/linkedin-icon.svg" />linkedin</a></li>
+                <li class="contact-list-item"><a class="contact-link" href="mailto: janehuizeng@gmail.com"><img class="contact-icon" src="assets/email-icon.svg" />janehuizeng@gmail.com</a></li>
+            </ul>
+    </section> -->
 
     <footer class="page-footer">
-        <p class="copy-right-display">© 2020 Jane Zeng</p>
+            <p class="copy-right-display">© 2020 Jane Zeng</p>
     </footer>
 
 </body>

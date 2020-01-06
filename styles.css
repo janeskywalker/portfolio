@@ -76,6 +76,8 @@
 .content-section {
     max-width: 600px;
     margin: 0 auto;
+    /* border-style: solid;
+    border-color: red; */
 }
 
 .greeting-message {
@@ -122,6 +124,7 @@
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 2em auto;
 }
 
 .contact-list-item {
