@@ -60,10 +60,10 @@
     color:rgb(34, 129, 167);
 }
 
-/* end of navbar */
 
 
 
+/* header */
 .header {
     background-image: url("./assets/geordanna-cordero-fields-2Qg4y32pdCc-unsplash.jpg");
 
@@ -71,12 +71,14 @@
     height: 500px;
 }
 
+
+/* content */
 .content-section {
     max-width: 600px;
     margin: 0 auto;
 }
 
-
+/* greeting */
 .greeting-message {
     font-size: 4em;
     text-align: center;
@@ -115,6 +117,8 @@
     line-height: 2;
 }
 
+
+/* contact */
 .contact-list {
     list-style-type: none;
     display: grid;
@@ -156,24 +160,50 @@
     background:rgb(78, 77, 102);
 }
 
+
+.just-dance-link-hldr {
+    background:rgb(44, 43, 56);
+}
+
+
 .bonaPetite {
     background: rgb(219, 151, 111)
+}
+
+.bonaPetite-link-hldr {
+    background: rgb(153, 93, 59)
 }
 
 .wayfarer {
     background: rgb(112, 196, 144)
 }
 
+.wayfarer-link-hldr {
+    background: rgb(73, 128, 94)
+}
+
 .bar-app{
     background: rgb(182, 160, 197)
+}
+
+.barapp-link-hldr {
+    background: rgb(104, 77, 122)
 }
 
 .on-selector{
     background: rgb(235, 94, 94)
 }
 
+.onselector-link-hldr {
+    background: rgb(143, 46, 46)
+}
+
 .data-binding{
     background:rgb(89, 151, 196)
+}
+
+.databinding-link-hldr {
+    background:rgb(50, 85, 110)
 }
 
 .project-section {
@@ -208,7 +238,7 @@
     color: whitesmoke;
     text-align: center;
     margin: 0 auto;
-    padding: 1em 4em;
+    padding: 0.5em 4em;
     font-family: adobe-garamond-pro, serif;
     font-size: 1.1em;
     letter-spacing: 0.03em;
@@ -216,9 +246,8 @@
 }
 
 .link-holder {
-    margin: 2em auto;
-    background:rgb(44, 43, 56);
-    width: 70%;
+    margin: 2em auto 0 auto;
+    width: 75%;
     height: 2.5em;
     line-height: 2.5em;
 }
@@ -230,6 +259,8 @@
     text-decoration: none;
     margin: 0.5em;
 }
+
+
 
 /* .project-link:hover {
     text-decoration: underline;
