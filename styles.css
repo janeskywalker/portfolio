@@ -73,11 +73,15 @@
     margin: 2em auto 1em auto;
 }
 
-.content-section {
+.section-wrapper {
     max-width: 600px;
     margin: 0 auto;
-    /* border-style: solid;
-    border-color: red; */
+    padding: 2em;
+}
+
+
+.skills {
+    background-color: #f6f8f9;
 }
 
 .greeting-message {
@@ -106,7 +110,7 @@
 .greeting {
     text-align: center;
     color:rgb(142, 70, 104);
-    padding: 4em 0 0 0;
+    padding: 1em 0 0 0;
     display: block;
 }
 
